@@ -11,8 +11,8 @@ const method = 'POST';
 const config = { 
     method,
     headers,
-    body 
+    body
 };
 
-fetch('/negociacoes', config)
+fetch('http://localhost:3000/negociacoes', config)
     .then(() => console.log('Dado enviado com sucesso'));
